@@ -8,13 +8,15 @@
     
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Punk Goes Pop 6" %></title>
-    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <%= stylesheet_link_tag "normalize", "all" %>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
   </head>
   
   <body class="<%= page_classes %>">
     <%= yield %>
+    <%= partial "convo" %>
+    <%= partial "footer" %>
     <%= javascript_include_tag  "all" %>
   </body>
 </html>
