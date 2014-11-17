@@ -25,6 +25,11 @@ body{
 //   border: solid 1px #fff;
 // }
 
+.tracklistbtn, .itunesbtn{
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+
 
 .tracklistbtn{
   cursor: pointer;
