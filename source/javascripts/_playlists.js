@@ -8,7 +8,7 @@ $player;
 var bind_cassette;
 
 //THESE ARE THE YOUTUBE VIDEOS FOR THE LINKS
-youtube_tokens = ["XorEel9J6Ws", "E-Pjdb8_uKw", "odNCtE-I8o4", "tQh7OjYIGWA", "Kr326EmWB5U", "7p_GaQox4EM", "23ySdftuMog", "b6DMIJ_DbF0", "hkq6im9D2xo", "olB7HAIUmgM", "Bxn5th2B-VI", "27UbBjV2B6w", "X0SNKNg9V2A"];
+youtube_tokens = ["XorEel9J6Ws", "E-Pjdb8_uKw", "odNCtE-I8o4", "tQh7OjYIGWA", "Kr326EmWB5U", "IXB6hgMDRZc", "23ySdftuMog", "b6DMIJ_DbF0", "hkq6im9D2xo", "olB7HAIUmgM", "Bxn5th2B-VI", "27UbBjV2B6w", "X0SNKNg9V2A"];
 
 $player = $("div#video-player");
 
